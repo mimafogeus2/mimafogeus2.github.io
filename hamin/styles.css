@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5em;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.getRecipe {
+  margin-top: 1em;
+  border: none;
+  display: block;
+  border-radius: 30px;
+  font-size: 1.5em;
+  background-color: #ba7;
+  padding: 0.5em 1em;
+  outline: none;
+  transition: all 0.1s;
+  justify-self: center;
+  user-select: none;
+}
+
+.getRecipe:hover {
+  background-color: #dc8;
+}
+
+.recipe {
+  font-size: 1.2em;
+  line-height: 1.5;
+  width: 600px;
+}
