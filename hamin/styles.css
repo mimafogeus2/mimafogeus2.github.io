@@ -1,13 +1,29 @@
+body {
+  background-image: url('bg.jpg');
+  background-position: center top;
+  margin: 0;
+}
+
 .wrapper {
+  padding: 1.5em;
+}
+
+.runner {
+  background-color: rgba(255, 255, 255, .8);
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100%;
-  padding: 1.5em;
+  margin: auto;
+  width: 660px;
+  padding: 2em 1em;
 }
 
 .title {
   margin-top: 0;
+}
+
+.story {
+  width: 600px;
 }
 
 .getRecipe {
